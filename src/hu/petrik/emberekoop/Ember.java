@@ -15,4 +15,11 @@ public class Ember {
         this.szulDatum = szulDatum;
         this.szulHely = szulHely;
     }
+
+    public int szuletesEv(){
+        String datum = szulDatum;
+        String[] parts = datum.split("-");
+        int part1 = Integer.parseInt(parts[0]);
+        return part1;
+    }
 }

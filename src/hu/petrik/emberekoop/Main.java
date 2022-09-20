@@ -8,5 +8,7 @@ public class Main {
         System.out.println(human1);
         System.out.println(human2);
         System.out.println(human3);
+
+        System.out.println(human3.szuletesEv());
     }
 }
