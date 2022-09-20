@@ -1,5 +1,7 @@
 package hu.petrik.emberekoop;
 
+import java.time.LocalDate;
+
 public class Ember {
     @Override
     public String toString() {
@@ -21,5 +23,10 @@ public class Ember {
         String[] parts = datum.split("-");
         int part1 = Integer.parseInt(parts[0]);
         return part1;
+    }
+
+    public int getEletkor(){
+        LocalDate ma = LocalDate.now();
+        return 2022 - this.szuletesEv();
     }
 }

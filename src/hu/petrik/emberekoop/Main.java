@@ -10,5 +10,9 @@ public class Main {
         System.out.println(human3);
 
         System.out.println(human3.szuletesEv());
+
+        System.out.printf("Három születési év: %d, %d, %d", human1.szuletesEv(), human2.szuletesEv(), human3.szuletesEv());
+
+
     }
 }
